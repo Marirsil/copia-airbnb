@@ -140,7 +140,73 @@ p{
   }
 }
 
+.destaques{
+  padding: 1.875rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625rem;
+  position: relative;
 
+  .destaques-textos{
+    display: flex;
+    justify-content: space-between;
+
+    .destaques-buttons{
+      display: flex;
+      gap: 0.9rem;
+      button{
+        display: flex;
+        gap: 0.3125rem;
+        align-items: center;
+      }
+    }
+  }
+
+
+  .galeria-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    border-radius: 50rem;
+    grid-template-areas: 'geral geral'
+                        'geral geral';
+
+  .fotos-casa:nth-child(1){
+    width: 100%;
+    height: auto;
+    grid-area: geral;
+    border-radius: 0.95rem 0rem 0rem 0.95rem;
+  }
+  
+  .fotos-casa:nth-child(2),
+  .fotos-casa:nth-child(3),
+  .fotos-casa:nth-child(4),
+  .fotos-casa:nth-child(5){
+    width: 100%;
+    height: 100%;
+    border-radius: 0rem 0.5rem;
+}
+}
+
+.show-fotos{
+  padding: 5px 17px;
+  position: absolute;
+  right: 1.5rem;
+  bottom: 3rem;
+  background-color: white;
+  border-radius: 8px;
+
+  button{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    img{
+      width: 1rem;
+      height: auto;
+    }
+  }
+}
+}
 
 
 
