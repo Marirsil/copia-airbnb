@@ -29,9 +29,13 @@ body {
   height: 100rem;
 }
 
-input, select {
+input, input::placeholder, select {
   border: none;
   outline: none;
+  appearance: none;
+  color: #000000;
+  font-size: 12px;
+  width: 100px;
 }
 
 a {
