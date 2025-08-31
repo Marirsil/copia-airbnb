@@ -1,7 +1,9 @@
 .container{
-  max-width: 1120px;
+  max-width: 70rem;
   margin: 0 auto;
 }
+
+
 
 .divorizontal{
   border-bottom: 1px solid #dddddd;
@@ -24,7 +26,7 @@
 
   .hero-cabecalho-search{
     border: 1px solid #dddddd;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -77,29 +79,19 @@
       height: 2.5rem;
       width: 2.5rem;
       background-color: #f2f2f2;
-      border-radius: 50px;
+      border-radius: 3.125rem;
+
+      img{
+        width: 1rem;
+        margin-top: 0.3rem;
+        height: auto;
+      }
 
       .fa-bars{
         font-size: 0.9rem;
         color: #222222;
       }
-
-      .globe{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 1.0625rem;
-        width: 1.0625rem;
-        border-radius: 50px;
-        margin-left: 28%;
-        background-color: #222222;
-
-        .fa-globe{
-          color: #f2f2f2;
-          font-size: 0.9rem;
-        }
-      }
-      }
+    }
     }
   }
 }
@@ -142,18 +134,25 @@
     border-radius: 0.95rem 0rem 0rem 0.95rem;
   }
   
+  .fotos-casa:nth-child(3){
+    border-radius: 0 12px 0 0;
+  }
+
+  .fotos-casa:nth-child(5){
+    border-radius: 0 0 12px 0;
+  }
+
   .fotos-casa:nth-child(2),
   .fotos-casa:nth-child(3),
   .fotos-casa:nth-child(4),
   .fotos-casa:nth-child(5){
     width: 100%;
     height: 100%;
-    border-radius: 0rem 0.5rem;
 }
 }
 
 .show-fotos{
-  padding: 5px 17px;
+  padding: 0.3125rem 1.0625rem;
   position: absolute;
   right: 1.5rem;
   bottom: 3rem;
@@ -179,14 +178,16 @@
 }
 
 .reserva-noites{
+  align-self: flex-start;
   position: sticky;
-  top: 40px;
+  top: 2.5rem;
+  padding-left: 4.0625rem;
   .confirmar-reserva{
     border: 1px solid #dddddd;
     border-radius: 0.7rem;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);;
-    width: 383px;
-    height: 318px;
+    width: 23.9375rem;
+    height: 19.875rem;
     
     display: flex;
     justify-content: center;
@@ -196,25 +197,31 @@
     .reserva-selecao-dias{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      width: 332px;
-      height: 116px;
+      width: 20.75rem;
+      height: 7.25rem;
       border-radius: 10px;
       border: 1px solid black;
+      position: relative;
   
-      .inputs{
-        /* border: 1px solid black;; */
-      }
-  
-      :nth-child(2){
-        width: 165px;
+      .check-in{
+        width: 10.3125rem;
+        border-right: 1px solid black;
         input{
-          width: 100%;
+          width: 8.75rem;
         }
       }
-      :nth-child(3){
+      .reserva-hospedes{
         grid-column: 1/3;
         overflow: hidden;
-        width: 332px;
+        width: 20.6875rem;
+        border-top: 1px solid black;
+        select{
+          background-image: url('./assents/img/seta.png');
+          background-repeat: no-repeat;
+          background-position: right 0.5rem top; 
+          background-size: 1rem;
+          width: 19.2rem;
+        }
       }
     }
   
@@ -224,22 +231,22 @@
       flex-direction: column;
       align-items: center;
       padding-top: 1rem;
-      gap: 20px;
+      gap: 1.25rem;
       a{
         display: inline-block;
         background-color: #ff385c;
         border-radius: 50rem;
         text-align: center; 
-        line-height: 50px;
-        height: 50px;
-        width: 332px;
+        line-height: 3.125rem;
+        height: 3.125rem;
+        width: 20.75rem;
       }
     }
   
     .valor-diaria{
       display: flex;
-      margin-bottom: 20px;
-      width: 332px;
+      margin-bottom: 1.25rem;
+      width: 20.75rem;
       align-items: center;
       gap: 0.3125rem;
     }
@@ -247,6 +254,13 @@
     .inputs{
       display: flex;
       flex-direction: column;
+      padding-left: 0.8rem;
+      align-items: baseline;
+      justify-content: center;
+      label{
+        font-size: 12px;
+        font-weight: 500;
+      }
     }
   }
 
@@ -269,7 +283,7 @@
 .informacoes-imovel{
   display: flex;
   flex-direction: column;
-  width: 672px;
+  width: 42rem;
   .informacoes-gerais{
     display: flex;
     flex-direction: column;
@@ -329,8 +343,8 @@
     margin: 2.31rem 0 2.9rem 0;
 
     button{
-      width: 150px;
-      height: 50px;
+      width: 9.375rem;
+      height: 3.125rem;
       background-color: #f2f2f2;
       border-radius: 12px;
       font-size: 15px;
@@ -362,8 +376,8 @@
       }
     }
     button{
-      width: 311px;
-      height: 50px;
+      width: 19.4375rem;
+      height: 3.125rem;
       background-color: #f2f2f2;
       border-radius: 12px;
       font-size: 15px;
