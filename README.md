@@ -23,5 +23,7 @@ Fazer um Fork, criando uma cópia do repositório em suas contas do GitHub. A op
 (Link de acesso ao site no GitHub Pages)
 
 ## Autores
+
+- [Kauã Oliveira](https://github.com/erasedmyself)  
 - [Mariana Silva](https://github.com/Marirsil)
 - [Vitor Tigre](https://github.com/VitorTigre)
