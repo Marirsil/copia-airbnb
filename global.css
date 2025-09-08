@@ -15,6 +15,7 @@
   --h5: 400 14.5px var(--poppins);
   --h6: 500 13px var(--poppins);
   --paragrafo: 400 13px var(--poppins);
+  --com: 500 300px var(var(--poppins))
 }
 
 button {
