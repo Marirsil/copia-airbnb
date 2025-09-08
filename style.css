@@ -430,13 +430,40 @@
   align-items: center;
   gap: 0.5rem;
   justify-content: flex-start;
-
   
 }
 .comentarios-texto{
   margin-top: 0.5rem;
 }
 .mostrar-mais{
-  margin-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   cursor: pointer;
+}
+.info-hospedagem h2{
+  margin: 3rem 0 1.5rem;
+}
+.info-hospedagem-grid{
+  display: flex;
+  margin: 0 auto;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 75rem;
+}
+.info-card{
+  flex: 1;
+}
+.info-card h4, .info-card h5{
+  margin-bottom: 0.5rem;
+}
+.footer{
+  background-color: #f2f2f2;  
+  width: 100%;
+  
+}
+.footer > .container{
+    margin-top: 1.5rem;
+}
+.footer > .info-hospedagem-grid{
+    margin-top: 3rem;
 }
